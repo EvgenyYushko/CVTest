@@ -13,4 +13,5 @@ Route::group([
 
     $router->get('/', 'HomeController@index')->name('home');
     $router->resource('/profile', 'ProfileController');
+    $router->resource('/work', 'WorkController');
 });

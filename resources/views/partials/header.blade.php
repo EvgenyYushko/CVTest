@@ -1,7 +1,7 @@
 <section id="home" class="pfblock-image screen-height">
     <div class="home-overlay"></div>
     <div class="intro">
-        <div class="start">Hello, my name is Evgeny Yushko and I am</div>
+        <div class="start">Hello, my name is {{$data['profile']->name}} {{$data['profile']->surname}} and I am</div>
         <h1>.Net Developer</h1>
         <div class="start">creating modern and responsive Application</div>
     </div>
@@ -33,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Evgeny Yushko</a>
+                <a class="navbar-brand" href="index.html">{{$data['profile']->name}} {{$data['profile']->surname}}</a>
             </div>
 
             <div class="collapse navbar-collapse" id="custom-collapse">

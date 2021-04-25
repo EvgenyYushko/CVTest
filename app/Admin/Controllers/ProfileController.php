@@ -5,12 +5,25 @@ namespace App\Admin\Controllers;
 
 
 use App\Http\Models\Profile;
+use App\Http\Repositories\Contracts\MainPageRepositoryInterface;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
+use Illuminate\View\View;
 
 class ProfileController extends AdminController
 {
+    public  $mainPageRepository;
+
+    public function __construct(MainPageRepositoryInterface $mainPageRepository)
+    {
+
+    }
+
+    public function index():View
+    {
+        $data = $this->mainPageRepository->getDataForFirstPage();
+    }
 
     protected  $title = 'Данные профиля';
 

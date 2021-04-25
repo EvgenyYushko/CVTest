@@ -4,7 +4,9 @@
 namespace App\Http\Models;
 
 
-class Work
+use Encore\Admin\Grid\Model;
+
+class Work extends Model
 {
 
 }

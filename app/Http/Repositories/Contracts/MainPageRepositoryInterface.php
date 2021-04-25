@@ -4,7 +4,7 @@
 namespace App\Http\Repositories\Contracts;
 
 
-class MainPageRepositoryInterface
+interface MainPageRepositoryInterface
 {
-
+    public  function  getDataForFirstPage():array;
 }

@@ -53,7 +53,7 @@ return [
     */
 
     'timezone' => 'UTC',
-
+    'slug' => env('SLUG_PROFILE'),
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration

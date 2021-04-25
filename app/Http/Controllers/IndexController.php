@@ -7,7 +7,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\View\View;
-class PortfolioController extends Controller
+class IndexController extends Controller
 {
     public $mainPageRepository;
     public function __construct(MainPageRepositoryInterface $mainPageRepository)
