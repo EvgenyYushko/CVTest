@@ -6,7 +6,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "heroku/heroku-buildpack-php": "*",
         "laravel/framework": "^10.10",
         "laravel/tinker": "^2.8"
     },
