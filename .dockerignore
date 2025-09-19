@@ -1,0 +1,9 @@
+.git
+.github
+.idea
+.env
+/vendor/
+/node_modules/
+docker-compose.yml
+Dockerfile
+README.md
